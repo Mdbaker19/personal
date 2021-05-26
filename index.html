@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+<body>
+
+
+<canvas id="background"></canvas>
+
+<main>
+  <div id="head">
+    <h1>Matthew Baker</h1>
+    <h2 id="type">Software Developer</h2>
+    <p>Solution driven, full-stack software developer looking to solve
+      real world business problems with technical solutions.
+      As a former repair technician, I have cultivated a passion for problem solving and collaborating
+      with others to brainstorm unique solutions to any challenges in my path.
+      Transitioning into software development has proven to be the best
+      decision of my life as it has ignited the same level of passion for solving problems but in a new way.</p>
+  </div>
+  <div id="info">
+    <div class="logo">
+      <i class="fas fa-phone"></i> (210) 638-8916
+    </div>
+    <div class="logo">
+      <a href="https://www.linkedin.com/in/matthew-baker-76b17b200/"><i class="fab fa-linkedin"></i> matthew-baker</a>
+    </div>
+    <div class="logo">
+      <a href="https://github.com/Mdbaker19"><i class="fab fa-github"></i> Mdbaker19</a>
+    </div>
+    <div class="logo">
+      <a href="mailto:matthew.d.baker20@gmail.com?body=Hello Matthew, this looks great and we would love to offer you a job!"><i class="far fa-envelope"></i> matthew.d.baker20@gmail.com</a>
+    </div>
+  </div>
+
+  <hr id="topLine">
+
+
+  <div id="techSkills">
+    <h1><strong>Technical Skills</strong></h1>
+    <p>HTML - CSS - Bootstrap - Materialize CSS - JavaScript - jQuery - Java SE - Java EE - Spring - MySQL - Thymeleaf - Object-Oriented Programming - Test-Driven Development - Version Control with Git - Paired Programming</p>
+    <h3 class="projectName">Exposure to</h3>
+    <p>React - Node JS - C#</p>
+  </div>
+
+  <div id="projects">
+    <h1><strong>Development Projects</strong></h1>
+    <h3 class="projectName">PodLobby</h3>
+    <p>PodLobby is a social media application designed to be a central
+      location for like-minded podcast enthusiasts to get together
+      and collaborate on new ideas. PodLobby allows users to easily
+      share their favorite podcasts while being able to find guest
+      speakers for any podcasts they may be working on. As a registered user,
+      podcasters can add their podcasts to the site, get recommendations from
+      the site to discover new podcasts, listen and comment on other users'
+      creations. This application was built using Java, Springboot, MySql,
+      Materialize CSS, JavaScript, HTML and the Filestack API.</p>
+
+    <h3 class="projectName">Sorting Visualizer</h3>
+    <p>Sorting Visualizer is an application used to visualize the process of
+      different sorting algorithms. Made using HTML canvas and JS, a user
+      can select from different algorithms, cycle speed, amount of towers
+      and various number ranges and animate the sorting process.
+      Building this application helped me understand how time complexity differs between algorithms.</p>
+
+    <h3 class="projectName">Flash Cards</h3>
+    <p>Flash Cards is an application built with a fellow classmate that
+      allows users to upload custom flash cards to a JSON server for
+      any other users to then use and study the material. The site
+      was created to help provide quality material to myself and my
+      fellow classmates as we progressed through Codeup. Built with JS, HTML,
+      CSS and Glitch JSON server.</p>
+
+    <h3 class="projectName">Master Mind</h3>
+    <p>Master Mind is a project based off of one of my favorite board game from the 70's.
+      Using Html, CSS, JS and jQuery this is a recreation of this classic game
+      with added features to change the difficulty by allowing the user to choose
+      different amount of color choices to play from. While working on this
+      project throughout my time at Codeup, I learned how to refactor old code
+      and diagnose bugs to improve an old project as well as taking in feedback
+      and improving UI. Built using HTML, CSS, JS and jQuery.</p>
+  </div>
+
+  <div id="experience">
+    <h1><strong>Professional Experience</strong></h1>
+    <div class="job" id="recent">
+      <h3 class="projectName">Developer</h3>
+      <h3 class="workPlace">Reaching Neighbors, San Antonio, TX / Apr. 2020 - Apr. 2020</h3>
+      <ul>
+        <li>Develop and implement external APIs into existing code base</li>
+        <li>Improved business processes by automating data entry into SQL database</li>
+      </ul>
+    </div>
+    <div class="job" id="first">
+      <h3 class="projectName">Field Technician</h3>
+      <h3 class="workPlace">MDW Power Systems, Poteet, TX / Aug. 2018 - Jul. 2020</h3>
+      <ul>
+        <li>Maintained company assets and proper time management while leading independent team</li>
+        <li>Documented status of company assets and scheduled service repairs on a daily basis</li>
+        <li>Analyzed, assessed and troubleshooted needed repairs with independent team on an on-call basis</li>
+        <li>As a team leader I developed and implemented a new four shift work schedule for the team</li>
+      </ul>
+    </div>
+    <div class="job" id="second">
+      <h3 class="projectName">Automotive Service Technician</h3>
+      <h3 class="workPlace">Bavarian Auto Repair, San Antonio, TX / Jun. 2017 - Aug. 2018</h3>
+      <ul>
+        <li>Analyzed and assessed issues with customer vehicles to ensure proper repairs are made</li>
+        <li>Calculated and designed vehicle diagnostics using test plans</li>
+        <li>Communicated, directed and completed job order with independent team while meeting necessary deadlines</li>
+        <li>Research unique solutions to problems through the use of proprietary dealership documentation</li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="school">
+    <h1><strong>Education</strong></h1>
+    <div id="school1" class="edu">
+      <h3 class="projectName">Codeup</h3>
+      <h3>Certificate of Completion / 2021</h3>
+      <p>A fully-immersive, project-based, and intensive 22-week Full-Stack Java Career Accelerator that provides students with 670 hours of expert instruction in software development.</p>
+    </div>
+    <div class="edu" id="school2">
+      <h3 class="projectName">Lincoln College of Technology</h3>
+      <h3>Certificate of Completion / 2014</h3>
+      <p>13-month automotive technical program focusing on new technologies and procedures in the auto industry</p>
+    </div>
+  </div>
+</main>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
