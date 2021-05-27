@@ -7,6 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
 </head>
+<style>
+  canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  main{
+    position: absolute;
+    color: aliceblue;
+  }
+</style>
 <body>
 
 
@@ -136,7 +148,6 @@
   <script type="module">
 
     import * as THREE from 'https://cdn.skypack.dev/three@0.128.0';
-    import './style.css'
     import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js';
     const scene = new THREE.Scene();
 
