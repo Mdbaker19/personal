@@ -2,7 +2,7 @@ import './style.css'
 
 import * as THREE from '../vite-project/node_modules/three';
 
-import {OrbitControls} from '../vite-project/node_modules/three/examples/jsm/controls/OrbitControls'
+import {OrbitControls} from 'three/examples/jsm/controls/OrbitControls'
 
 const scene = new THREE.Scene();
 
@@ -18,12 +18,6 @@ camera.position.setZ(30);
 
 renderer.render(scene, camera);
 
-const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
-const material = new THREE.MeshStandardMaterial({color: 0xFF6347});
-
-const tours = new THREE.Mesh(geometry, material);
-
-scene.add(tours);
 
 const pointLight = new THREE.PointLight(0xffffff);
 pointLight.position.set(5, 5, 5);
@@ -56,10 +50,6 @@ scene.background = spaceTexture;
 
 function animate() {
     requestAnimationFrame(animate);
-
-    tours.rotation.x += 0.01;
-    tours.rotation.z += 0.01;
-    tours.rotation.y += 0.005;
 
     controls.update();
 
